@@ -7,17 +7,17 @@ function Nav() {
       <div className="sidebar-wrapper">
         <ul className="nav">
           <Link to="/">
-            <li className="nav-item active  ">
-              <a className="nav-link" href="./">
+            <li className="nav-item active">
+              <a className="nav-link">
                 <div className="material-icons">Home</div>
               </a>
             </li>
           </Link>
 
-          <Link to="/Auth">
-            <li className="nav-item ">
-              <a className="nav-link" href="./auth">
-                <div className="material-icons">Auth</div>
+          <Link to="/login">
+            <li className="nav-item">
+              <a className="nav-link">
+                <div className="material-icons">Login</div>
               </a>
             </li>
           </Link>
