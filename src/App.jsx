@@ -1,7 +1,11 @@
 import React from "react";
 import "./App.css";
+import "./assets/css/material-dashboard-rtl.css";
+import "./assets/css/material-dashboard.min.css";
+import "./assets/css/material-dashboard.css";
+
 import Auth from "./component/Auth";
-import Nav from "./Nav";
+import Nav from "./component/Nav";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
