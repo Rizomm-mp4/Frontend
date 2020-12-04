@@ -1,18 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
 
 import Auth from "./component/Auth";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-function App() {
-  return (
-    <Router>
+class App extends Component {
+  render() {
+    return (
       <div className="App">
-        <h1>App works !</h1>
-        <Route path="/login" component={Auth} />
+        <Auth />
       </div>
-    </Router>
-  );
+    );
+  }
 }
 
 export default App;

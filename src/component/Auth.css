@@ -1,0 +1,27 @@
+.Auth {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Auth__form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.Auth__label {
+  padding: 5px 0;
+}
+
+.Auth__label input {
+  margin-left: 5px;
+}
+
+.Auth__form__id {
+}
+
+.Auth__form__pwd {
+}
